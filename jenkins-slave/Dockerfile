@@ -39,4 +39,10 @@ RUN echo 'gem: --no-document' >> /usr/local/etc/gemrc &&\
 RUN gem update --system &&\
     gem install bundler
 
+# Install Gems
+WORKDIR /tmp
+ADD Gemfile /tmp/
+ADD Gemfile.lock /tmp/
+RUN bundle install
+
 USER jenkins
