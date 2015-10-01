@@ -3,7 +3,7 @@ proxy:
   ports:
     - "80:80"
   links:
-    - web
+    - web:dvo305demo_web_1
 web:
   image: dstroppa/dvo305-web
   command: bundle exec rails server -e production -b 0.0.0.0
