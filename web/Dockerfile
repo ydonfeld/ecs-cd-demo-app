@@ -10,3 +10,4 @@ WORKDIR /opt/web
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /var/tmp/*
 ENV RAILS_SERVE_STATIC_FILES true
 RUN bundle exec rake assets:precompile
+CMD bundle exec rails server -e production -b 0.0.0.0
