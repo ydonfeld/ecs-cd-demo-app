@@ -6,29 +6,12 @@ USER root
 
 # Quiet the update and install output
 RUN apt-get update -qq && \
-    apt-get install -y -qq \
-      git \
-      curl \
-      wget \
-      build-essential \
-      ca-certificates \
-      libyaml-dev \
-      libreadline-dev \
-      libcurl4-openssl-dev \
-      libffi-dev \
-      libgdbm-dev \
-      libssl-dev \
-      libxml2-dev \
-      libxslt1-dev \
-      libtool \
-      zlib1g-dev \
-      netbase
-
+    apt-get install -y -qq git curl wget build-essential ca-certificates libyaml-dev libreadline-dev \
+      libcurl4-openssl-dev libffi-dev libgdbm-dev libssl-dev libxml2-dev libxslt1-dev libtool zlib1g-dev netbase
 RUN apt-get install -y qt5-default libqt5webkit5-dev
 RUN apt-get install -y xvfb x11-xkb-utils xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic x11-apps
 
-RUN rm -rf /var/lib/apt/lists/* &&\
-    truncate -s 0 /var/log/*log
+RUN rm -rf /var/lib/apt/lists/* && truncate -s 0 /var/log/*log
 
 # Set the Ruby version of your preference
 ENV RUBY_VERSION 2.2.2

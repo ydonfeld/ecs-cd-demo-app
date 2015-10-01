@@ -5,7 +5,7 @@
       "name": "proxy",
       "image": "dstroppa/dvo305-proxy:v_BUILD_NUMBER",
       "essential": true,
-      "memory": 512,
+      "memory": 256,
       "portMappings": [
         {
           "hostPort": 80,
@@ -20,7 +20,7 @@
       "name": "web",
       "image": "dstroppa/dvo305-web:v_BUILD_NUMBER",
       "essential": true,
-      "memory": 2048,
+      "memory": 512,
       "portMappings": [
         {
           "hostPort": 3000,
