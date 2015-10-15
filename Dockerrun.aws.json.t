@@ -43,7 +43,7 @@
         },
         {
           "name": "RDS_HOSTNAME",
-          "value": "aa1j2m85id06y3d.cj2pwphbdszk.us-east-1.rds.amazonaws.com"
+          "value": "ebdb.copob5mk4xyd.us-east-1.rds.amazonaws.com"
         },
         {
           "name": "RDS_PORT",
