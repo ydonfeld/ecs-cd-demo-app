@@ -1,4 +1,4 @@
-# DVO305 Demo
+# ECS CD Demo
 This is the demo for the 'Turbocharge Your Continuous Deployment Pipeline with Containers' re:Invent session.
 
 ## Setup
