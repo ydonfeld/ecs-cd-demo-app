@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "proxy",
-      "image": "dstroppa/dvo305-proxy:v_BUILD_NUMBER",
+      "image": "awsloft16/photogram-proxy:v_BUILD_NUMBER",
       "essential": true,
       "memory": 256,
       "portMappings": [
@@ -18,7 +18,7 @@
     },
     {
       "name": "web",
-      "image": "dstroppa/dvo305-web:v_BUILD_NUMBER",
+      "image": "awsloft16/photogram-web:v_BUILD_NUMBER",
       "essential": true,
       "memory": 512,
       "portMappings": [
