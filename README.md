@@ -38,4 +38,3 @@ This is the demo for the 'Turbocharge Your Continuous Deployment Pipeline with C
 1. Show prod app (still old version)
 2. Push changes
 3. Wait for deployment, show new version
-
