@@ -34,7 +34,7 @@
         },
         {
           "name": "RAILS_ENV",
-          "value": "production"
+          "value": "development`"
 
         },
         {
