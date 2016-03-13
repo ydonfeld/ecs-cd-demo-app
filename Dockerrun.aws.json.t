@@ -39,19 +39,19 @@
         },
         {
           "name": "RDS_PASSWORD",
-          "value": "photopwd"
+          "value": "D0nenfeld"
         },
         {
           "name": "RDS_HOSTNAME",
-          "value": "ebdb.copob5mk4xyd.us-east-1.rds.amazonaws.com"
+          "value": "aa1vj7gh6nt60ua.cyqupavqt5fz.us-east-1.rds.amazonaws.com"
         },
         {
           "name": "RDS_PORT",
-          "value": "5432"
+          "value": "3306"
         },
         {
           "name": "RDS_USERNAME",
-          "value": "photouser"
+          "value": "donenfel"
         },
         {
           "name": "RDS_DB_NAME",
