@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "proxy",
-      "image": "awsloft16/photogram-proxy:v_0",
+      "image": "ydonfeld/awsloft16-proxy:v_0",
       "essential": true,
       "memory": 256,
       "portMappings": [
@@ -18,7 +18,7 @@
     },
     {
       "name": "web",
-      "image": "awsloft16/photogram-web:v_0",
+      "image": "ydonfeld/awsloft16-web:v_0",
       "essential": true,
       "memory": 512,
       "portMappings": [
